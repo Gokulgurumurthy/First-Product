@@ -12,7 +12,7 @@
 
 // var store = 100 + 100; // 200
 // var a = 100 + 300; // 400
- 
+
 // var b = store; // 200
 
 // store = b + a; // 200 + 400
@@ -46,7 +46,7 @@
 
 // const c = 10; // cannot be reintialize,cannot be redeclared,cannot be reassigned, most used, hoisting=initialize error(doesnt entertain hoisting)
 
-// console.log(a,b,c);// hoisting  
+// console.log(a,b,c);// hoisting
 
 // var a = 10;
 
@@ -57,7 +57,6 @@
 // data types
 
 //  number, boolean, string, undefined, null
-
 
 // primitive datatypes
 
@@ -73,13 +72,11 @@
 
 // }
 
-
 // const d = [];
 
 // const r = {};
 
 //Comparators,Logical operators and Strict Operators
-
 
 // const a = 11;
 
@@ -87,8 +84,86 @@
 
 // console.log(a > b)
 
-//Type coersion
+//Type coercion
 
-const a = 'hello';
+// const a = 'hello';
 
-console.log(a+'world');
+// console.log(a+'world');
+
+// console.log(typeof 'true'); // type of dstatype
+
+// const example = "thunder";
+
+// console.log(example + 100000);
+// console.log(100000 + example);
+// console.log(typeof (example + 100000));
+
+// If else condition
+
+// if(100 !== "string") {
+// console.log("Payment received");
+// }else {
+// console.log("payment declined");
+// }
+
+// If else
+
+// var a = 25
+// var b = 25
+// var c = 25
+
+// if(25+25 === a+b+c) {
+// console.log(1);
+// }else if(25+25+25 === a+b) {
+// console.log(2);
+// } else if (25+25+25 === a+b+c) {
+// console.log(3);
+// }else if (25 === a) {
+// console.log(4);
+// } else {
+//     console.log(5);
+// }
+
+// let val1;
+// let val2 = "Good";
+// val1 = val2
+// if (val1 + "day" == typeof "string") { // "Goodday" == "string"
+    
+//   console.log("Good Morning");
+//   if(true){
+//     console.log("did u have cfe")
+//   }
+// } else if (val1 + "day" == typeof "string") { //"goodday" =="string"
+//   console.log("Good afternoon");
+// } else if (val1 + "day" === typeof "string") { // "goodday" ==="string"
+//   console.log("Good evening");
+// } else if (typeof (val1 + "day") === typeof "string") { // "good day" === "string"
+//   console.log("Good Night");
+// } else {
+//     val2 = "bad"
+//     console.log("have a " + val2 + "day")
+// }
+var a = 100;
+var b = 0;
+
+if (50 + 80 === a + 20) {
+  console.log("it's true @1"); 
+
+  if (typeof a !== "number") {
+    console.log("yes it is a number");
+  } else {
+    console.log("no it is not a number");
+  }
+} else if (30 + 90 === a) {
+  console.log("it's true @2");
+} else if (30 + 70 === a + b) {
+  console.log("it's true @3");
+
+  if (typeof a !== "number") {
+    console.log("yes it is a number");
+  } else {
+    console.log("no it is not a number 2");
+  }
+} else {
+  console.log("it's false");
+}
